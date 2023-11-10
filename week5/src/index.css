@@ -1,6 +1,6 @@
  
   .movie-container {
-    width: 200px;
+    width: 250px;
     background: rgb(33, 33, 83);
     position: relative;
     margin: 20px;
@@ -15,7 +15,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin:100px;
   }
   
   .movie-info {
