@@ -18,10 +18,7 @@ function Weather() {
       const response = await axios.get(
         `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=27d7273e2ae146f0b079900c49941eb9`
       );
-
-      if (response.status === 200) {
-        setWeather(response.data);
-      } 
+      setWeather(response.data);
     } catch (error) {
       setError('에러가 발생했습니다');
     }
